@@ -14,6 +14,7 @@ class Book(BaseModel):
     
 books = {}
 
+
 @app.get("/books/")
 async def getbooks():
     return books
